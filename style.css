@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: #CFD8DC;
+  background: #F5F5F5;
+  color: #333;
 }
 
 header {
-  background: #262362;
+  background: #2C3E50;
   padding: 20px;
-  color: #fff;
-  position: relative;
+  color: #ECF0F1;
 }
 
 .header-container {
@@ -34,8 +34,8 @@ header {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background: #fff;
-  color: #262362;
+  background: #ECF0F1;
+  color: #2C3E50;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@ header {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #ECF0F1;
   text-decoration: none;
   padding: 5px 10px;
   transition: background 0.3s;
@@ -57,19 +57,19 @@ header {
 a {
   text-decoration: none;
   font-weight: 450;
-  color: #c9a62d;
+  color: #18BC9C;
 }
 
 .nav-links a:hover {
-  background: #c9a62d;
+  background: #18BC9C;
   border-radius: 5px;
 }
 
 .hero {
   text-align: center;
   padding: 50px 20px;
-  background: #c9a62d;
-  color: #fff;
+  background: #18BC9C;
+  color: #ECF0F1;
 }
 
 .hero-title {
@@ -84,8 +84,8 @@ a {
 
 .cta-button {
   display: inline-block;
-  background: #262362;
-  color: #fff;
+  background: #2C3E50;
+  color: #ECF0F1;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -94,19 +94,20 @@ a {
 }
 
 .cta-button:hover {
-  background: #c9a62d;
+  background: #ECF0F1;
+  color: #2C3E50;
 }
 
 .features {
   padding: 40px 20px;
-  background: #fff;
+  background: #ECF0F1;
   text-align: center;
 }
 
 .section-title {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #262362;
+  color: #2C3E50;
 }
 
 .feature-container {
@@ -117,7 +118,7 @@ a {
 }
 
 .feature-box {
-  background: #f1f1f1;
+  background: #fff;
   border-radius: 10px;
   padding: 20px;
   width: 250px;
@@ -127,12 +128,12 @@ a {
 
 .feature-icon {
   font-size: 40px;
-  color: #262362;
+  color: #18BC9C;
 }
 
 .contact {
   padding: 40px 20px;
-  background: #f9f9f9;
+  background: #ECF0F1;
   text-align: center;
 }
 
@@ -140,14 +141,18 @@ a {
   font-size: 18px;
   margin-top: 20px;
 }
+.contact-info i {
+  margin-right: 8px; /* Adjust the value as needed */
+}
+
 
 .contact-info p {
   margin: 10px 0;
 }
 
 footer {
-  background: #262362;
-  color: #fff;
+  background: #2C3E50;
+  color: #ECF0F1;
   text-align: center;
   padding: 10px;
 }
